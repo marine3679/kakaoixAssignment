@@ -1,0 +1,75 @@
+.kimApache {
+  background: url(kimApache.png); }
+
+.kimLayout {
+  height: 4%;
+  position: fixed;
+  top: 100;
+  left: 100;
+  width: 4%;
+  z-index: 9999; }
+  .kimLayout .kimApache {
+    position: fixed;
+    height: 41;
+    width: 41;
+    background: url(kimApache.png);
+    z-index: 9999 !important; }
+  .kimLayout .widget {
+    top: 17;
+    left: 15;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: grey; }
+    .kimLayout .widget .widgetLinkOn {
+      display: inline-block !important; }
+    .kimLayout .widget a {
+      display: none; }
+    .kimLayout .widget .kimLoginLink {
+      position: relative;
+      top: 13;
+      left: 8; }
+    .kimLayout .widget .kimInstagramLink {
+      position: relative;
+      top: 16;
+      left: 16; }
+    .kimLayout .widget .kimFaqLink {
+      position: relative;
+      top: 15;
+      left: 12; }
+  .kimLayout .widget-move1 {
+    top: -92;
+    left: -3;
+    height: 50;
+    width: 50; }
+  .kimLayout .widget-move2 {
+    top: -4;
+    left: 88;
+    height: 50;
+    width: 50; }
+  .kimLayout .widget-move3 {
+    top: 83;
+    left: -4;
+    height: 50;
+    width: 50; }
+  .kimLayout .kimFaq {
+    top-margin: -30px; }
+  .kimLayout .kimInstagram {
+    top-margin: -15px; }
+
+.kimLayout:hover {
+  height: 5%;
+  position: fixed;
+  top: 96;
+  left: 96;
+  width: 5%;
+  z-index: 9999; }
+  .kimLayout:hover .kimApache {
+    position: fixed;
+    height: 43;
+    width: 43;
+    cursor: pointer;
+    background: url(kimApache2.png); }
+
+/*# sourceMappingURL=kakaoAssignment.css.map */
